@@ -11,12 +11,21 @@
 2. run "bash start.sh"
 
 ----
-## Usage(Windows)
-1. TODO
+## Usage(Windows and pip)
+1. pip install pypi-xmlrpc
+2. pip install zipfile36
+3. python main.py
 
 ----
-**No extra dependency installation need. Only pre-requisite is python 3.7**
+**No extra dependency installation needed for Ubuntu. Only pre-requisite is python 3.7**
 
 For any queries contact <ssuparno1998@gmail.com> or use [mailto](mailto:ssuparno1998@gmail.com) for sending verified emails
 
 **If you like this effort please put a star to show support**
+
+**TODO**
+
+* Automated pipeline for windows(shell script) - Done
+* Add option for multiple season download
+
+Suparno Karmakar (March 2020)
