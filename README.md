@@ -5,7 +5,7 @@
 
 ----
 ## Usage(Ubuntu)
-1. Download or Clone the repository
+1. download/clone the repository and extract.
 2. run "bash start.sh"
 
 ----
