@@ -25,7 +25,7 @@ For any queries contact <ssuparno1998@gmail.com> or use [mailto](mailto:ssuparno
 
 **TODO**
 
-* Automated pipeline for windows(shell script) - Done
-* Add option for multiple season download
+* Automated pipeline for windows(shell script) 
+* Add option for multiple season download -- **Done**
 
 Suparno Karmakar (March 2020)
