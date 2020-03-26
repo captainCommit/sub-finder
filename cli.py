@@ -32,8 +32,8 @@ def getData():
         return query
     else:
         while True:
-            ch = input("1 for Single Episode \n2 for Single Season\n3 for Entire Series\n4 for Multiple Episodes\n5 to Quit\nEnter Your Choice : ")
-            if ch in [str(i) for i in range(1,5)]:
+            ch = input("1 for Single Episode \n2 for Single Season\n3 for Entire Series\n4 for Multiple Episodes\n5 for Multiple Seasons\n6 to Quit\nEnter Your Choice : ")
+            if ch in [str(i) for i in range(1,7)]:
                 break
             else:
                 print("Enter Proper Input ")
@@ -73,7 +73,7 @@ def getData():
                 lang = languages[lang]
             eps = []
             flag = True
-            print("Enter Episodes................\n")
+            print("\nEnter Episodes................\n")
             while flag:
                 season = input('Season # : ')
                 episode = input('Episode # : ')
@@ -86,7 +86,25 @@ def getData():
                     break
             return eps
         elif ch == 5:
+            name = input("Series Name : ")
+            ep = input("# of episodes per season : ")
+            lang = getLang()
+            eps = []
+            flag =True
+            print("\nEnter Seasons................\n")
+            while flag:
+                season = input('Season # : ')
+                for x in range(1,int(ep)+1):
+                    eps.append(view(name,lang,season,x).genJSONtype())
+                ch = input("Press y to continue : ")
+                flag = True if ch.lower() == 'y' else False
+                if not flag:
+                    print('Exiting..........')
+                    break
+            return eps
+        elif ch == 6:
             print("Quiting")
+            exit()
     print("Done")
 
 
