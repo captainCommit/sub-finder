@@ -1,5 +1,3 @@
-#sub-finder
-
 ----
 ## what is sub-finder ?
 
