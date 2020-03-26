@@ -1,0 +1,6 @@
+README.md
+setup.py
+subx.egg-info/PKG-INFO
+subx.egg-info/SOURCES.txt
+subx.egg-info/dependency_links.txt
+subx.egg-info/top_level.txt

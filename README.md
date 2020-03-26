@@ -1,1 +1,1 @@
-A simple fast interactive application to download subtitles for movies and TV series from opensubtitles.org
+#subx 
