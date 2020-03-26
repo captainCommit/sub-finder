@@ -31,8 +31,8 @@ def getData():
         query.append(obj)
         return query
     else:
-        ch = input("1 for Single Episode \n2 for Single Season\n3 for Entire Series\n4 for Multiple Episodes\n5 to Quit\nEnter Your Choice : ")
         while True:
+            ch = input("1 for Single Episode \n2 for Single Season\n3 for Entire Series\n4 for Multiple Episodes\n5 to Quit\nEnter Your Choice : ")
             if ch in [str(i) for i in range(1,5)]:
                 break
             else:
