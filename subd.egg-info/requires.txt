@@ -1,0 +1,3 @@
+
+[Support for encoding detection on downloaded subtitle]
+charset_normalizer

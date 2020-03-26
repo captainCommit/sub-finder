@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: subd
+Version: 0.1
+Summary: Download Subtitles Easily
+Home-page: https://twitter.com/1729Suparno
+Author: Suparno Karmakar
+Author-email: ssuparno1998@gmail.com
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: Subtitles Python
+Platform: UNKNOWN
+Provides-Extra: Support for encoding detection on downloaded subtitle
