@@ -25,5 +25,5 @@ For any queries contact <ssuparno1998@gmail.com> or use [mailto](mailto:ssuparno
 
 * Automated pipeline for windows(shell script) 
 * Add option for multiple season download -- **Done**
-
+Quarantine : Day - 5
 Suparno Karmakar (March 2020)
